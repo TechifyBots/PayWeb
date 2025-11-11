@@ -1,10 +1,10 @@
 const paymentAddresses = {
-    paypal: 'https://paypal.me/TechifyRahul', // Update Paypal value
+    paypal: '', // Update Paypal value
     binance: '486968757', // Update Binance Pay value
-    coffee: 'https://buymeacoffee.com/TechifyRahul' // Update Buy me coffe value
+    coffee: 'https://buymeacoffee.com/RahulDhankhar' // Update Buy me coffe value
 };
 
-const ContactLink = 'https://instagram.com/TechifyRahul'; // Update Contact-Link value
+const ContactLink = 'https://instagram.com/RahulDhankhar'; // Update Contact-Link value
 
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('paypal-address').textContent = paymentAddresses.paypal;
