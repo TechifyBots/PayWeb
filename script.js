@@ -64,3 +64,7 @@ function copyPaymentAddress(method) {
         showToast(`${method.charAt(0).toUpperCase() + method.slice(1)} copied!`);
     }
 }
+
+function comingSoon() {
+    showToast("𝖢𝗈𝗆𝗂𝗇𝗀 𝖲𝗈𝗈𝗇...");
+}
