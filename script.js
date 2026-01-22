@@ -32,7 +32,7 @@ function handlePay() {
 }
 
 const paymentAddresses = {
-    paypal: '', // Update Paypal value
+    paypal: 'https://www.paypal.me/ImRahulDhankhar', // Update Paypal value
     binance: '486968757', // Update Binance Pay value
     coffee: 'https://buymeacoffee.com/RahulDhankhar' // Update Buy me coffe value
 };
@@ -63,8 +63,4 @@ function copyPaymentAddress(method) {
         navigator.clipboard.writeText(address);
         showToast(`${method.charAt(0).toUpperCase() + method.slice(1)} copied!`);
     }
-}
-
-function comingSoon() {
-    showToast("𝖢𝗈𝗆𝗂𝗇𝗀 𝖲𝗈𝗈𝗇...");
 }
